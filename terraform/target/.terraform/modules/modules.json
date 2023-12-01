@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"FirewallRulePublic","Source":"../modules/gcp/firewall_rules","Dir":"../modules/gcp/firewall_rules"},{"Key":"Network","Source":"../modules/gcp/network/vpc","Dir":"../modules/gcp/network/vpc"},{"Key":"PublicAccessSubnet","Source":"../modules/gcp/network/subnet","Dir":"../modules/gcp/network/subnet"}]}
