@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "belzgkebucket"
+    bucket  = "belz_bucket"
     encrypt = true
   }
 }

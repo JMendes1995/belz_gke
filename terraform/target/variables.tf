@@ -12,5 +12,4 @@ variable "image"{}
 variable "vm_machine_type"{}
 variable "vm_provisioning_model"{}
 variable "vm_tags"{}
-variable "service_account_file"{}
 
