@@ -8,12 +8,12 @@
 
 
 > :warning: **Disclamer**
-The helm-chart used in this project is the entire responsibility of the Beelzebub projec  **[Beelzebub project](https://github.com/mariocandela/beelzebub)**  owner. Please check his github page for further details and check the framework available functionalities. Moreover, the helm-chart it was copied into this repository to ease here to ease the chart deployment.
+The helm-chart used in this project is the entire responsibility of the **[Beelzebub project](https://github.com/mariocandela/beelzebub)**  owner. Please check his GitHub page for further details and check the framework's available functionalities. Moreover, the helm-chart it was copied into this repository to ease here to ease the chart deployment.
 
 
 ### prerequesits
 * enable compute engine api https://console.cloud.google.com/apis/library/compute.googleapis.com
-* enable kubernetes engine api https://console.cloud.google.com/apis/library/container.googleapis.com
+* enable Kubernetes engine api https://console.cloud.google.com/apis/library/container.googleapis.com
 * Provide an API key into belz_gke/beelzebub-chart/values.yaml with at least Tier 1 functionalities.
   
 ### clone beelzebub repo 
