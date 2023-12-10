@@ -8,7 +8,7 @@
 
 
 > :warning: **Disclamer**
-The helm-chart used in this project is the entire responsibility of the **[Beelzebub project](https://github.com/mariocandela/beelzebub)**  owner. Please check his GitHub page for further details and check the framework's available functionalities. Moreover, the helm-chart it was copied into this repository to ease here to ease the chart deployment.
+The helm-chart used in this project is the entire responsibility of the **[Beelzebub project](https://github.com/mariocandela/beelzebub)**  owner. Please check his GitHub page for further details and check the framework's available functionalities. Moreover, the helm-chart it was modified to have a dedicated namespace and copied into this repository to ease here to ease the chart deployment.
 
 
 ### prerequesits
