@@ -14,6 +14,8 @@ The helm-chart used in this project is the entire responsibility of the Beelzebu
 ### prerequesits
 * enable compute engine api https://console.cloud.google.com/apis/library/compute.googleapis.com
 * enable kubernetes engine api https://console.cloud.google.com/apis/library/container.googleapis.com
+* Provide an API key into belz_gke/beelzebub-chart/values.yaml with at least Tier 1 functionalities.
+  
 ### clone beelzebub repo 
 
 ### clone belz_gke repo 
