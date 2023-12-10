@@ -34,7 +34,7 @@ module "FirewallRulePublic" {
     vpc_id              = module.Network.vpc_id
     protocol            = "tcp"
     ports               = ["22"]
-    source_ranges       = var.ip_isp_pub
+    source_ranges       = ["0.0.0.0/0"]
     desitnation_ranges  = ["0.0.0.0/0"]
     project_id          = var.project_id
 

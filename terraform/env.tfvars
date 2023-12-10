@@ -1,5 +1,5 @@
 
-tfstate_bucket_name="belz_bucket"
+tfstate_bucket_name="belzgkebucket"
 project_name="belz"
 project_id="belz-406915"
 region="europe-west4"
