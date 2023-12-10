@@ -4,7 +4,7 @@
 ### Architecture Diagram
 <br>
 
-![image info](./resources/belz_diagram.png)
+![image info](./resources/Belz_diagram.png)
 
 
 > :warning: **Disclamer**
