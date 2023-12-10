@@ -1,12 +1,20 @@
 # belz_gke
 
+
+### Architecture Diagram
+<br>
+
+![image info](./resources/belz_diagram.png)
+
+
+> :warning: **Disclamer**
+The helm-chart used in this project is the entire responsibility of the Beelzebub projec  **[Beelzebub project](https://github.com/mariocandela/beelzebub)**  owner. Please check his github page for further details and check the framework available functionalities. Moreover, the helm-chart it was copied into this repository to ease here to ease the chart deployment.
+
+
 ### prerequesits
 * enable compute engine api https://console.cloud.google.com/apis/library/compute.googleapis.com
 * enable kubernetes engine api https://console.cloud.google.com/apis/library/container.googleapis.com
 ### clone beelzebub repo 
-```bash
-git clone https://github.com/JMendes1995/beelzebub.git
-```
 
 ### clone belz_gke repo 
 ```bash
@@ -67,8 +75,9 @@ kubectl config get-contexts
 ```
 
 ### deploy beelzebub helm chart
+
 ```bash
-helm install -f ../beelzebub/beelzebub-chart/values.yaml beelzebub ../beelzebub/beelzebub-chart
+helm install -f ../beelzebub-chart/values.yaml beelzebub ../beelzebub-chart
 ```
 
 ### check running pods
