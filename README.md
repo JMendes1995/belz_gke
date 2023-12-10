@@ -79,7 +79,7 @@ kubectl config get-contexts
 ### deploy beelzebub helm chart
 
 ```bash
-helm install -f ../beelzebub-chart/values.yaml beelzebub ../beelzebub-chart
+helm install -f beelzebub-chart/values.yaml beelzebub beelzebub-chart
 ```
 
 ### check running pods
